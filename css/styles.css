@@ -12,7 +12,7 @@ img {
 
 .section-intro {
   padding: 40px;
-  margin:20px;
+  margin: 10px;
 }
 
 .section-produits {
@@ -26,10 +26,11 @@ img {
   color: #57BB6B;
 }
 
-a {
+.card a {
   color: #000000;
   font-weight: 700;
   font-family:'Maven Pro', sans-serif;
+  font-size: 17px;
 }
 
 .picto {
@@ -39,7 +40,7 @@ a {
 .picto-line {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .picto-line img {
@@ -62,6 +63,7 @@ h3 {
   font-family: 'Sriracha', cursive;
   font-size: 30px;
   font-weight: 400;
+  margin:0;
 }
 
 body { 
@@ -74,7 +76,12 @@ body {
   border-radius: 20px;
   text-align: justify;
   color:#000000;
-  box-shadow: 0 0 1em #D3C6B2;
+  box-shadow: 0 0 0.5em #000000CE;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
 }
 
 .card-banane {
@@ -97,12 +104,14 @@ body {
   background: #57BB6B;
   padding: 10px 20px;
   margin: 10px 20px;
-  border-radius: 15px;
+  border-radius: 10px;
   color: #FFFFFF;
   text-decoration: none;
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-weight: 100;
+  font-family:'Maven Pro', sans-serif;
 }
 
 .cta-light {
@@ -119,6 +128,11 @@ body {
 
 footer {
   color: #57BB6B;
-  font-size: 15px;
-  padding-bottom: 20px;
+  font-size: 13px;
+  padding: 20px;
+  margin:20px;
+}
+ 
+.card p {
+  color:#000000CE;
 }
