@@ -10,20 +10,26 @@ img {
   max-width: 100%;
 }
 
+.section-intro {
+  padding: 40px;
+  margin:20px;
+}
+
 .section-produits {
-  background:#57BB6B;
-  color:#FFFFFF;
-  padding:40px;
+  background: #57BB6B;
+  color: #FFFFFF;
+  padding: 40px;
 }
 
 .section-contact {
-  background:#FFFFFF;
-  color:#57BB6B;
+  background: #FFFFFF;
+  color: #57BB6B;
 }
 
 a {
-  color:#000000;
+  color: #000000;
   font-weight: 700;
+  font-family:'Maven Pro', sans-serif;
 }
 
 .picto {
@@ -34,18 +40,21 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 20%;
+}
+
+.picto-line img {
+  width: 30px;
 }
 
 header {
-  background-image:url(../img/legumes.svg);
+  background-image: url(../img/legumes.svg);
   padding: 40px;
   border-top: 5px solid #57BB6B;
 }
 
 h2 {
   font-family: 'Maven Pro', sans-serif;
-  font-size: 20px;
+  font-size: 26px;
   font-weight: 700;
 }
 
@@ -57,11 +66,6 @@ h3 {
 
 body { 
   font-family: 'Quattrocento', serif;
-}
-
-em {
-  font-style: normal;
-  font-weight: 700;
 }
 
 .card {
@@ -90,7 +94,7 @@ em {
 }
 
 .cta {
-  background:#57BB6B;
+  background: #57BB6B;
   padding: 10px 20px;
   margin: 10px 20px;
   border-radius: 15px;
@@ -104,15 +108,17 @@ em {
 .cta-light {
   background:#FFFFFF;
   color:#57BB6B;
-  text-decoration: none;
 }
 
 .box-title {
   background: #FFFFFFCE;
-  padding:40px;
+  padding: 40px;
   margin-bottom: 30px;
+  color: #57BB6B;
 }
 
 footer {
-  color:#57BB6B;
+  color: #57BB6B;
+  font-size: 15px;
+  padding-bottom: 20px;
 }
