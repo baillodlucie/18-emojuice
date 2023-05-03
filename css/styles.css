@@ -11,20 +11,20 @@ img {
 }
 
 .section-intro {
-  padding: 40px;
-  margin: 10px;
+  padding: 20px;
+  margin: 45px;
 }
 
 .section-produits {
   background: #57BB6B;
   color: #FFFFFF;
-  padding: 40px;
+  padding:20px 30px 40px 30px;
 }
 
 .section-contact {
   background: #FFFFFF;
   color: #57BB6B;
-  padding: 40px;
+  padding: 10px 40px 10px 40px;
 }
 
 .card a {
@@ -42,6 +42,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 30px;
 }
 
 .picto-line img {
@@ -50,8 +51,8 @@ img {
 
 header {
   background-image: url(../img/legumes.svg);
-  padding: 40px;
-  border-top: 5px solid #57BB6B;
+  padding: 30px;
+  border-top: 10px solid #57BB6B;
 }
 
 h2 {
@@ -111,7 +112,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-weight: 100;
   font-family:'Maven Pro', sans-serif;
   font-size: 20px;
 }
@@ -120,7 +120,7 @@ body {
   background:#FFFFFF;
   color:#57BB6B;
   padding: 10px 20px;
-  margin: 13px 50px;
+  margin: 13px 57px;
 }
 
 .cta-emojuice {
@@ -139,8 +139,8 @@ body {
 }
 
 .box-title {
-  background: #FFFFFFCE;
-  padding: 40px;
+  background: #ffffffe3;
+  padding: 5px 40px 5px 40px;
   margin-bottom: 30px;
   color: #57BB6B;
 }
