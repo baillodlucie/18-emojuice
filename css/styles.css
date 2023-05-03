@@ -24,6 +24,7 @@ img {
 .section-contact {
   background: #FFFFFF;
   color: #57BB6B;
+  padding: 40px;
 }
 
 .card a {
@@ -34,7 +35,7 @@ img {
 }
 
 .picto {
-  max-width: 40%;
+  max-width: 35%;
 }
 
 .picto-line {
@@ -71,12 +72,12 @@ body {
 }
 
 .card {
-  padding: 20px;
+  padding: 30px;
   margin-top: 30px;
   border-radius: 20px;
   text-align: justify;
   color:#000000;
-  box-shadow: 0 0 0.5em #000000CE;
+  box-shadow: 0 0 0.5em #00000072;
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -104,7 +105,7 @@ body {
   background: #57BB6B;
   padding: 10px 20px;
   margin: 10px 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   color: #FFFFFF;
   text-decoration: none;
   display: flex;
@@ -112,12 +113,31 @@ body {
   align-items: center;
   font-weight: 100;
   font-family:'Maven Pro', sans-serif;
+  font-size: 20px;
 }
 
 .cta-light {
   background:#FFFFFF;
   color:#57BB6B;
+  padding: 10px 20px;
+  margin: 13px 50px;
 }
+
+.cta-emojuice {
+  padding: 13px 50px;
+  margin: 13px 36px
+}
+
+.cta-instagram {
+  padding: 13px 38px;
+  margin: 13px 80px;
+}
+
+.cta-facebook {
+  padding: 13px 38px;
+  margin: 13px 95px;
+}
+
 
 .box-title {
   background: #FFFFFFCE;
@@ -126,13 +146,17 @@ body {
   color: #57BB6B;
 }
 
+.box-title p {
+font-size: 20px;
+}
+
 footer {
   color: #57BB6B;
   font-size: 13px;
   padding: 20px;
-  margin:20px;
+  margin: 20px;
 }
  
 .card p {
-  color:#000000CE;
+  color:#00000072;
 }
